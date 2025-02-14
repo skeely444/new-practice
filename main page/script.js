@@ -16,3 +16,8 @@ import { TextPlugin } from "gsap/TextPlugin";
 
 
 gsap.registerPlugin(useGSAP,Flip,ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin,EaselPlugin,PixiPlugin,TextPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase);
+
+function darkMode() {
+    const toggleText = document.getElementById("toggler")
+    toggleText.innerHTML = ("hi it works")
+}
