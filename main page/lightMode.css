@@ -6,6 +6,7 @@
     text-align: top;
     list-style: none;
     text-decoration: none;
+    z-index: 5;
 }
 a {
     color: rgb(0, 0, 0);
@@ -31,4 +32,21 @@ h1 {
     right: 5px;
     text-align: right;
     width: 50%;
+}
+#g {
+    margin-top: 20%;
+}
+#background{
+    z-index: -13;
+    position: absolute;
+    width: 100%;
+}
+.topics {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+li:hover {
+    text-decoration: underline;
 }
