@@ -1,3 +1,6 @@
+body {
+    color: white;
+}
 .topBar {
     display: flex;
     justify-content: space-around;
@@ -49,4 +52,9 @@ h1 {
 }
 li:hover {
     text-decoration: underline;
+    transform: scale(1.5);
+    transition: transform ease-in-out 1s;
+}
+.selected {
+    text-decoration: underline blue;
 }
